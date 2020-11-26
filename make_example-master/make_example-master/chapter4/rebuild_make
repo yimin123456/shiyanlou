@@ -1,6 +1,0 @@
-# this is a makefile to verify the rebuild rule
-.PHONY: aim_1
-aim_1:test_1
-	touch aim_1
-aim_2:
-	@echo "this is " $@
